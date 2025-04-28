@@ -7,7 +7,10 @@ Minimal template that sets up:
 - ESLint
 - ESList Stylistic
 
+
 #### Setup Script
+Example output is located in the vanilla-ts-app folder.
+
 Usage:
 ```
 .\Minimal.ps1 path

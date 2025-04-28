@@ -5,7 +5,7 @@ Minimal template that sets up:
 - Typescript
 - Vite
 - ESLint
-- ESList Stylistic
+- ESLint Stylistic
 
 
 #### Setup Script

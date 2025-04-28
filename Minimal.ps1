@@ -8,7 +8,7 @@ if (-not [string]::IsNullOrEmpty($TargetDir))
     Set-Location $TargetDir
 }
 
-npm create vite@latest . --- --template vanilla-ts --overwrite
+npm create vite@latest . --- --template vanilla-ts
 
 Get-ChildItem -Path .\public -File -Recurse | Remove-Item
 Get-ChildItem -Path .\src -File -Recurse | Remove-Item
